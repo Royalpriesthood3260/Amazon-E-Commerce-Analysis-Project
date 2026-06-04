@@ -207,13 +207,11 @@ All 5 checks passed — data is clean.
 1. Electronics drives 65% of revenue despite having the same order volume as every other category
 2. The difference in revenue comes down to price — Electronics avg order value is 33,043 vs Clothing's 1,647
 3. Clothing has the highest discount rate at 40% but generates the least revenue and has the worst ratings
-4. Only 1 in 3 orders is actually delivered — delayed orders match delivered orders almost exactly
-5. Every city has roughly a 30% delay rate — this is a platform-wide fulfilment issue
-6. Delhi and Mumbai ship the fastest but have the highest delay rates — last-mile delivery is the bottleneck
-7. Return rates are almost identical across all payment methods — how someone pays has no effect on returns
-8. Cash on Delivery has the lowest return rate at 11.54% — the opposite of what most people assume
-9. The top 17% of customers account for 63% of all revenue
-10. Bigger discounts have zero impact on product ratings or return rates — the numbers barely move
+4. Every city has roughly a 30% delay rate
+5. Delhi and Mumbai ship the fastest but have the highest delay rates
+6. Return rates are almost identical across all payment methods
+7. Cash on Delivery has the lowest return rate at 11.54%
+8. Bigger discounts have zero impact on product ratings or return rates — the numbers barely move
 
 ---
 
@@ -221,10 +219,10 @@ All 5 checks passed — data is clean.
 
 This project went through 1 million e-commerce transactions using SQL to answer real business questions. A few things stood out clearly:
 
-- Electronics is carrying the whole platform — same number of orders as every other category but 65% of the revenue
-- Delivery is a serious problem — nearly 1 in 3 orders is delayed across every single city
-- Discounts are being wasted — they don't improve ratings or reduce returns at all
-- A small group of customers drives most of the money — keeping them happy matters more than chasing new ones
+- Electronics carries the whole platform — price, not volume, is the real driver
+- A 30% delay rate in every city is a platform-wide problem that can't be ignored
+- Discounts are just lost money — they change nothing for ratings or returns
+- A small group of customers brings in most of the revenue — they're the ones that matter
 
 ---
 
