@@ -92,7 +92,7 @@ All 5 checks passed — data is clean.
 
 ## 📈 Exploratory Data Analysis
 
-### EDA 1 — Basic Numbers
+### 1. Basic Numbers
 
 | Avg Listed Price | Avg Paid Price | Avg Discount | Avg Rating | Avg Seller Rating | Avg Shipping | Min Price | Max Price |
 |------------------|----------------|--------------|------------|-------------------|--------------|-----------|-----------|
@@ -101,7 +101,7 @@ All 5 checks passed — data is clean.
 
 ---
 
-### EDA 2 — Orders and Performance by Category
+### 2. Orders and Performance by Category
 
 | Category    | Total Orders | Avg Order Value | Avg Discount | Avg Rating | Return Rate |
 |-------------|--------------|-----------------|--------------|------------|-------------|
@@ -114,7 +114,7 @@ All 5 checks passed — data is clean.
 
 ---
 
-### EDA 3 — Delivery Status Breakdown
+### 3. Delivery Status Breakdown
 
 | Delivery Status | Orders  | Share  |
 |-----------------|---------|--------|
@@ -126,7 +126,7 @@ All 5 checks passed — data is clean.
 
 ---
 
-### EDA 4 — Orders by Device
+### 4. Orders by Device
 
 | Device     | Orders  | Share  |
 |------------|---------|--------|
@@ -137,9 +137,9 @@ All 5 checks passed — data is clean.
 
 ---
 
-## ❓ Business Questions & Insights
+## ❓ Business Questions & Result
 
-### Q1 — Which category makes the most money, and why?
+### 1. Which category makes the most money, and why?
 
 | Category    | Orders | Revenue        | Avg Order Value | Avg Discount | Revenue Share |
 |-------------|--------|----------------|-----------------|--------------|---------------|
@@ -152,7 +152,7 @@ All 5 checks passed — data is clean.
 
 ---
 
-### Q2 — Does how you pay affect whether you return something?
+### 2. Does how you pay affect whether you return something?
 
 | Payment Method   | Total Orders | Returns | Return Rate | Avg Order Value |
 |------------------|--------------|---------|-------------|-----------------|
@@ -164,7 +164,7 @@ All 5 checks passed — data is clean.
 
 ---
 
-### Q3 (CTE) — What does the customer base look like by spending level?
+### 3. What does the customer base look like by spending level?
 
 | Segment        | Customers | Avg Lifetime Value | Avg Orders | Revenue Share |
 |----------------|-----------|--------------------|------------|---------------|
@@ -176,7 +176,7 @@ All 5 checks passed — data is clean.
 
 ---
 
-### Q4 — Do bigger discounts lead to better ratings or fewer returns?
+### 4. Do bigger discounts lead to better ratings or fewer returns?
 
 | Category    | Discount Band      | Orders | Avg Rating | Return Rate |
 |-------------|--------------------|--------|------------|-------------|
@@ -189,7 +189,7 @@ All 5 checks passed — data is clean.
 
 ---
 
-### Q5 — Which cities have the worst delivery problems?
+### 5. Which cities have the worst delivery problems?
 
 | City      | Orders  | Avg Ship Days | Delivered | Delayed | Delay Rate | Revenue        |
 |-----------|---------|---------------|-----------|---------|------------|----------------|
